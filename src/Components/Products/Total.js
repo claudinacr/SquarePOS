@@ -1,4 +1,6 @@
 import React from 'react';
+import ModalTotal from './Modal.js';
+
 const Total = () => (
   <div className='Total'>
     <div className='DetailCart'>
