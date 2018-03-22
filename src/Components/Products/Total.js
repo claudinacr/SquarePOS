@@ -1,4 +1,5 @@
 import React from 'react';
+
 const Total = () => (
   <div className='Total'>
     <div className='DetailCart'>
@@ -9,4 +10,5 @@ const Total = () => (
     </div>
   </div>
 )
+
 export default Total;
