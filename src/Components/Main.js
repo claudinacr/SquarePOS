@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Route, NavLink, HashRouter } from 'react-router-dom';
-import Productos from './Products/Containerproducts';
-/*import Ventas from './Ventas/Ventas';*/
 import './Main.css';
+import Containerproducts from './Products/Containerproducts.js';
+/*import Ventas from './Ventas/Ventas';*/
 
 class Main extends Component {
   render() {
@@ -10,13 +10,13 @@ class Main extends Component {
       <HashRouter>
         <div>
           <ul className="menu">
-            <li><NavLink to="/productos">Productos</NavLink></li>
-            <li><NavLink to="/ventas">Ventas</NavLink></li>
-            <li><NavLink to="/ventas">Ventas</NavLink></li>
+            <li><NavLink to="/Products/Containerproducts">Productos</NavLink></li>
+            <li><NavLink to="/Ventas/Ventas">Ventas</NavLink></li>
+            <li><NavLink to="/Flujo/Flujo">Flujo</NavLink></li>
           </ul>
           <div className="contenido">
-            <Route path="/productos" />
-            <Route path="/ventas" />
+            <Route path="/Products/Containerproducts" component={Containerproducts}/>
+            <Route path="/Ventas/Ventas" />
           </div>
         </div>
       </HashRouter>
