@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
-.Containerproducts{
+.Containerproductdetail{
   display: flex;
   flex-direction: row;
   align-content: space-between;
@@ -31,13 +31,13 @@ border: 0px solid #000000;
   flex-direction: row;
   flex-wrap: wrap;
   width: 75%;
-  height: 100vh;
   background-color: #f1f4f5;
   justify-content: center; 
-  border: 1px #386791 solid;
-  background-color: lightblue;
-  overflow: scroll;  
-}
+  border-right: 1px #386791 solid;
+  border-top: 1px #386791 solid;
+
+/*   background-color: lightblue;
+ */}
 
 .Detail{
   width: 25%;
@@ -60,8 +60,8 @@ padding: 1em;
 
 .buttonItems:hover{
 
-/* background-color: palevioletred;
- */
+background-color: palevioletred;
+
 }
 
 .DetailCart{
@@ -85,6 +85,9 @@ padding: 1em;
 .Cobrar{
 /*   background-color: yellow;
  */  height: 10em;
+ padding-top: 1em;
+  background-color: aquamarine;
+  padding-bottom: 1em;
 
 
 }
@@ -99,6 +102,12 @@ border: 0px solid #000000;
 padding-right: 3em;
 padding-top: 1em;
 padding-bottom: 1em;
+
+}
+
+.buttonTotal:hover, .buttonCobrar:hover{
+ 
+  background-color: palevioletred;
 
 }
 
@@ -146,5 +155,13 @@ border: 0px solid #000000;
 }
 
 .totalCart{
-  padding-top: 2em;
+  padding-top: 1em;
+  background-color: aquamarine;
+  padding-bottom: 1em;
 }
+
+.Header{
+  background-color: #386791;
+  height: 3.5em;
+}
+

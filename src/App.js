@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import ReactDOM from "react-dom";
-import Containerproducts from './Components/Products/Containerproducts';
-import Main from "./componentes/Main";
-import logo from './logo.svg';
+import Containerproducts from './componentes/Products/Containerproducts';
+/* import Main from "./componentes/Main";
+ */import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
