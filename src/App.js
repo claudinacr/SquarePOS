@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from "react-dom";
-import Containerproducts from './componentes/Products/Containerproducts';
+import Containerproducts from './Components/Products/Containerproducts';
 /* import Main from "./componentes/Main";
  */import logo from './logo.svg';
 import './App.css';
