@@ -1,7 +1,10 @@
-/* import React, { Component } from 'react';
+
+import React, { Component } from 'react';
 import { Route, NavLink, HashRouter } from 'react-router-dom';
-import Productos from './Productos/';
-import Ventas from './Ventas/';
+/*import Productos from './Productos/';*/
+/*import Ventas from './Ventas/';*/
+
+
 
 class Main extends Component {
   render() {
@@ -11,15 +14,21 @@ class Main extends Component {
           <ul className="menu">
             <li><NavLink to="/productos">Productos</NavLink></li>
             <li><NavLink to="/ventas">Ventas</NavLink></li>
+
+            <li><NavLink to="/ventas">Ventas</NavLink></li>
           </ul>
           <div className="contenido">
-            <Route path="/productos" component={Stuff}/>
-            <Route path="/ventas" component={Contact}/>
+            <Route path="/productos" />
+            <Route path="/ventas" />
           </div>
         </div>
-      </HashRouter>  
+      </HashRouter>
+
+
     );
   }
 }
  
-export default Main; */
+
+export default Main;
+

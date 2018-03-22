@@ -1,4 +1,6 @@
-/* import React, { Component } from 'react';
+
+import React, { Component } from 'react';
+
 
 class Ventas extends Component {
   render() {
@@ -7,5 +9,6 @@ class Ventas extends Component {
     );
   }
 }
- 
-export default Ventas; */
+
+export default Ventas;
+
