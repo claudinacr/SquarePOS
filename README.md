@@ -64,6 +64,32 @@ Se volvió a realizar un prototipo, esta vez con un poco mas de definición:
 ![prototipo2](https://i.imgur.com/4ciTvmB.jpg)
 ![prototipo2.1](https://i.imgur.com/vxBgu3k.jpg)
 
+Se realizaron mas testeos sobre funcionalidad en hackatón
+
+Wireframes finales:
+
+![wireframe1](https://i.imgur.com/aiC2b5k.png)
+![wireframe2](https://i.imgur.com/Fqfvb85.png)
+![wireframe3](https://i.imgur.com/J27Jk5F.png)
+![wireframe4](https://i.imgur.com/rLfSK6e.png)
+![wireframe5](https://i.imgur.com/q4fnUir.png)
+![wireframe6](https://i.imgur.com/lSYmodW.png)
+![wireframe7](https://i.imgur.com/RMa1oZD.png)
+
+Proyecto testeable en https://marvelapp.com/4jd6j3b/screen/40122471
+
+(El producto sufrirá modificaciones visuales en su PMV)
+
+*Proyecto realizado para :
+*LABORATORIA
+
+**Integrantes:**
+* Camilú
+* Camila Belen
+* Claudina
+* Jóse
+* Verillo
+
 
 
 
