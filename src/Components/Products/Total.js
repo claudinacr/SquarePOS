@@ -3,10 +3,12 @@ import React from 'react';
 const Total = () => (
   <div className='Total'>
     <div className='DetailCart'>
+    <p className='Detalle'>DETALLE DE PRODUCTOS</p>
+
 
     </div>
     <div className='totalCart'>
-      <button className='buttonTotal'>Total &nbsp;$<span className='TotalR'>0</span></button>
+      <button className='buttonTotal'>TOTAL &nbsp;$<span className='TotalR'>0</span></button>
     </div>
   </div>
 )

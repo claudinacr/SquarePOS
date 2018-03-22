@@ -4,15 +4,18 @@ import Detail from './Detail';
 import Date from './Date';
 
 
-const Containerproducts = () =>(
+const Containerproducts = () => (
   <div className='Containerall'>
-    <div className='Containerproducts'>
-    <div className='Containerallproduct'>
-        <Products></Products>
-    </div>
-    <Detail>
-          
-    </Detail>
+
+    <div className='tituloproduct'>
+      <div className='Containerproducts'>
+        <div className='Containerallproduct'>
+          <Products></Products>
+        </div>
+        <Detail>
+
+        </Detail>
+      </div>
     </div>
   </div>
 )
