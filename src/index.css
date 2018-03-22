@@ -3,3 +3,148 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+.Containerproducts{
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  align-content: center;
+  text-align: center;
+
+}
+.Products{
+  border-right: 4px white solid;
+  width: 14em;
+  height: 22em;
+  background-color: wheat;
+  margin: 1em;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+border-radius: 2px 2px 2px 2px;
+-moz-border-radius: 2px 2px 2px 2px;
+-webkit-border-radius: 2px 2px 2px 2px;
+border: 0px solid #000000;
+}
+
+.Containerallproduct{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 75%;
+  height: 100vh;
+  background-color: #f1f4f5;
+  justify-content: center; 
+  border: 1px #386791 solid;
+  background-color: lightblue;
+  overflow: scroll;  
+}
+
+.Detail{
+  width: 25%;
+
+
+}
+
+.Decription{
+  height: 5em;
+}
+
+.buttonItems{
+  border-radius: 2px 2px 2px 2px;
+-moz-border-radius: 2px 2px 2px 2px;
+-webkit-border-radius: 2px 2px 2px 2px;
+border: 0px solid #000000;
+background-color: thistle;
+padding: 1em;
+}
+
+.buttonItems:hover{
+
+/* background-color: palevioletred;
+ */
+}
+
+.DetailCart{
+  min-height: 5em;
+  max-height: 20em;
+  padding: 1em;
+  overflow: auto;
+/*   background-color: pink;
+ */
+}
+
+.Total{
+  height: 10em;
+/*   background-color: blue;
+ */
+  
+
+
+}
+
+.Cobrar{
+/*   background-color: yellow;
+ */  height: 10em;
+
+
+}
+
+.buttonTotal, .buttonCobrar{
+  border-radius: 2px 2px 2px 2px;
+-moz-border-radius: 2px 2px 2px 2px;
+-webkit-border-radius: 2px 2px 2px 2px;
+border: 0px solid #000000;
+/* background-color: thistle;
+ */padding-left: 3em;
+padding-right: 3em;
+padding-top: 1em;
+padding-bottom: 1em;
+
+}
+
+.buttonCobrar{
+  margin-top: 3em;
+}
+
+.divContainer{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding: 0.5em;
+  align-items: center;
+  border-radius: 2px 2px 2px 2px;
+-moz-border-radius: 2px 2px 2px 2px;
+-webkit-border-radius: 2px 2px 2px 2px;
+  margin-bottom: 0.5em;
+
+}
+
+.buttonRemove{
+  width: 5em;
+  height: 2em;
+  margin-left: 1em;
+  border-radius: 2px 2px 2px 2px;
+-moz-border-radius: 2px 2px 2px 2px;
+-webkit-border-radius: 2px 2px 2px 2px;
+border: 0px solid #000000;
+}
+
+.imagen{
+  width: 3em;
+  height: 3em;
+}
+
+.divFlex p, .divPrice {
+  font-size: 0.8em !important;
+}
+
+.divFlex{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  width: 10em;
+}
+
+.totalCart{
+  padding-top: 2em;
+}
