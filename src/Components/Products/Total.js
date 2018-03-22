@@ -1,5 +1,5 @@
 import React from 'react';
-import ModalTotal from './Modal.js';
+import ModalTotal from './Modal';
 
 const Total = () => (
   <div className='Total'>
