@@ -50,6 +50,7 @@ const Products = () =>{
                 document.querySelector('.TotalR').innerHTML='';
                 document.querySelector('.TotalR').appendChild(document.createTextNode(parseInt(actuall) - parseInt(Precio)))
                 Contenedor.innerHTML='';
+                
 
                 })
             }}>

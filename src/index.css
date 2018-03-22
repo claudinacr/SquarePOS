@@ -65,13 +65,11 @@ padding: 1em;
 }
 
 .buttonItems:hover{
-
 background-color: palevioletred;
-
 }
 
 .DetailCart{
-  height: 25em;
+  height: 15em;
   padding: 1em;
   overflow: auto;
 
