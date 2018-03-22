@@ -11,6 +11,8 @@ const Products = () =>{
             <p>{producto.title}</p>
             <p>{`$${producto.price}`}</p>
             </div>
+
+
             <button className='buttonItems' onClick={this.Search =()=>{
               const actual = document.querySelector('.TotalR').textContent
               document.querySelector('.TotalR').innerHTML='';
@@ -53,6 +55,7 @@ const Products = () =>{
             }}>
               Comprar</button>
         </div>
+
       )
   )
 }

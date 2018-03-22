@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Route, NavLink, HashRouter } from 'react-router-dom';
-/*import Productos from './Productos/';*/
-/*import Ventas from './Ventas/';*/
+import Productos from './Products/Containerproducts';
+/*import Ventas from './Ventas/Ventas';*/
+import './Main.css';
 
 class Main extends Component {
   render() {

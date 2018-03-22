@@ -1,0 +1,13 @@
+.menu li{
+	list-style: none;
+	display: inline-block;
+	margin: 2em;
+}
+
+.menu a{
+	text-decoration: none;
+}
+
+.menu{
+	text-align: right;
+}
