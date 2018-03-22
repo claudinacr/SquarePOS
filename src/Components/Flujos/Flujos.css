@@ -1,14 +1,94 @@
 .Grafico1 img{
-	width: 20%;
-	display: inline-block;
+	width: 60%;
 }
 
 .Grafico2 img{
-	width: 20%;
-	display: inline-block;
+	width: 60%;
 }
 
 .Grafico3 img{
-	width: 40%;
+	width: 70%;
+}
+
+.graficos{
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  align-content: center;
+}
+
+.graficoGrande{
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  align-content: center;
+}
+
+.Containerflujo{
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  
+}
+
+.Filtro{
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  align-content: center;
+  width: 25%;
+  height: 90vh;
+}
+
+li{
+  list-style: none;
+}
+.Filtro1 a, .Filtro2 a, .Filtro3 a, .Filtro4 a, .Filtro5 a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.Filtro ul{
+  margin:0;
+  padding:0;
+}
+
+.Filtro h2{
+  color: #FFFFFF;
+  margin: 0;
+  padding: 1.5em;
+
+}
+
+a:hover{
+  text-decoration: none;
+}
+.Filtro1{
+  background-color: #A2DCFF;
+  height: 20vh;
+}
+
+.Filtro2{
+  background-color: #62BCFF;
+  height: 20vh;
+
+}
+
+.Filtro3{
+  background-color: #41A1FF;
+  height: 20vh;
+
+}
+
+.Filtro4{
+  background-color: #3379DA;
+  height: 20vh;
+
+}
+
+.Filtro5{
+  background-color: #2760AA;
+  height: 20vh;
+
 }
 
