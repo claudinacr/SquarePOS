@@ -4,7 +4,9 @@ class Ventas extends Component {
   render() {
     return (
       <div>
-        <h2> Ventas</h2>
+        <div>
+        	<h2>Ventas</h2>
+        </div>
         <p> Aqui va la lista de las ventas</p>
       </div>
     );

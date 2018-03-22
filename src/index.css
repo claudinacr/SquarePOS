@@ -178,8 +178,11 @@ border: 0px solid #000000;
 }
 
 .Date{
-  background-color: pink;
-  height: 3.5em;
+
+  background-color: #D8D8D8;
+  height: 3em;
+  text-align: right;
+  padding: 1em;
 }
 
 .Detalle{
