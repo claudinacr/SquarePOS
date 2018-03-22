@@ -37,7 +37,7 @@
   align-content: space-between;
   align-content: center;
   width: 25%;
-  height: 90vh;
+  height: 80vh;
 }
 
 li{
@@ -56,8 +56,13 @@ li{
 .Filtro h2{
   color: #FFFFFF;
   margin: 0;
-  padding: 1.5em;
+  padding: 1.5em 1.5em 1em 1.5em;
+  font-size: 1.8em;
+}
 
+.Filtro h2:hover{
+  color: #2760AA;
+  cursor: pointer;
 }
 
 a:hover{
@@ -65,30 +70,29 @@ a:hover{
 }
 .Filtro1{
   background-color: #A2DCFF;
-  height: 20vh;
+  height: 17.5vh;
 }
 
 .Filtro2{
   background-color: #62BCFF;
-  height: 20vh;
+  height: 17.5vh;
 
 }
 
 .Filtro3{
   background-color: #41A1FF;
-  height: 20vh;
+  height: 17.5vh;
 
 }
 
 .Filtro4{
   background-color: #3379DA;
-  height: 20vh;
+  height: 17.5vh;
 
 }
 
 .Filtro5{
   background-color: #2760AA;
-  height: 20vh;
+  height: 17.5vh;
 
 }
-
