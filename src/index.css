@@ -12,18 +12,11 @@ body {
 
 }
 .Products{
-  border-right: 4px white solid;
   width: 15em;
   height: 24em;
-  background-color: wheat;
   margin: 1em;
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-border-radius: 2px 2px 2px 2px;
--moz-border-radius: 2px 2px 2px 2px;
--webkit-border-radius: 2px 2px 2px 2px;
-border: 0px solid #000000;
+  background-color: white;
+
 }
 
 .Containerproducts{
@@ -35,9 +28,9 @@ border: 0px solid #000000;
   flex-direction: row;
   flex-wrap: wrap;
   width: 75%;
-  background-color: #f1f4f5;
   justify-content: center; 
   border: 1px #386791 solid;
+  background-color: #f2f2f2;
  
 
 /*   background-color: lightblue;
@@ -60,18 +53,23 @@ border: 0px solid #000000;
 -moz-border-radius: 2px 2px 2px 2px;
 -webkit-border-radius: 2px 2px 2px 2px;
 border: 0px solid #000000;
-background-color: thistle;
-padding: 1em;
+background-color: #49515f;
+color: white;
+padding-left: 1em;
+padding-right: 1em;
+padding-top: 0.5em;
+padding-bottom: 0.5em;
 }
 
 .buttonItems:hover{
-background-color: palevioletred;
+background-color: #009bc4;
 }
 
 .DetailCart{
-  height: 15em;
+  height: 30em;
   padding: 1em;
   overflow: auto;
+  background-color: #F2F2F2;
 
 /*   background-color: pink;
  */
@@ -105,12 +103,13 @@ border: 0px solid #000000;
 padding-right: 3em;
 padding-top: 1em;
 padding-bottom: 1em;
+background-color:  #969ca8;
 
 }
 
 .buttonTotal:hover, .buttonCobrar:hover{
  
-  background-color: palevioletred;
+  background-color: #009bc4;
 
 }
 

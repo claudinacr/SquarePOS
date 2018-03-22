@@ -54,7 +54,7 @@ const Products = () =>{
 
                 })
             }}>
-              Comprar</button>
+              Agregar</button>
         </div>
 
       )
