@@ -49,7 +49,7 @@ const Products = () =>{
                 const actuall = document.querySelector('.TotalR').textContent
                 document.querySelector('.TotalR').innerHTML='';
                 document.querySelector('.TotalR').appendChild(document.createTextNode(parseInt(actuall) - parseInt(Precio)))
-                Contenedor.innerHTML='';
+                Contenedor.style.display ='none';
                 
 
                 })

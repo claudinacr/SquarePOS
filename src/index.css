@@ -62,7 +62,6 @@ padding-bottom: 0.5em;
 }
 
 .buttonItems:hover{
-background-color: #009bc4;
 }
 
 .DetailCart{
@@ -70,6 +69,8 @@ background-color: #009bc4;
   padding: 1em;
   overflow: auto;
   background-color: #F2F2F2;
+  border-top: 1px #386791 solid;
+
 
 /*   background-color: pink;
  */
@@ -77,6 +78,7 @@ background-color: #009bc4;
 
 .Total{
   height: 10em;
+
 
 /*   background-color: blue;
  */
@@ -93,7 +95,7 @@ background-color: #009bc4;
 
 }
 
-.buttonTotal, .buttonCobrar{
+.buttonTotal{
   border-radius: 2px 2px 2px 2px;
 -moz-border-radius: 2px 2px 2px 2px;
 -webkit-border-radius: 2px 2px 2px 2px;
@@ -103,7 +105,10 @@ border: 0px solid #000000;
 padding-right: 3em;
 padding-top: 1em;
 padding-bottom: 1em;
-background-color:  #969ca8;
+background-color: #009bc4;
+color: white;
+width: 80%;
+font-weight: bold;
 
 }
 
@@ -127,6 +132,11 @@ background-color:  #969ca8;
 -moz-border-radius: 2px 2px 2px 2px;
 -webkit-border-radius: 2px 2px 2px 2px;
   margin-bottom: 0.5em;
+  border: 1px #4b5060 solid;
+  border-radius: 4px 4px 4px 4px;
+-moz-border-radius: 4px 4px 4px 4px;
+-webkit-border-radius: 4px 4px 4px 4px;
+
 
 }
 
@@ -168,8 +178,16 @@ border: 0px solid #000000;
 }
 
 .Date{
+
   background-color: #D8D8D8;
   height: 3em;
   text-align: right;
   padding: 1em;
+}
+
+.Detalle{
+  background-color: #f2f2f2;
+  color: #386791;
+  font-weight: bold;
+  
 }
