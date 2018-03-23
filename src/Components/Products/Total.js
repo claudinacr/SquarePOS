@@ -2,7 +2,7 @@ import React from 'react';
 
 const Total = () => (
   <div className='Total'>
-    <div className='DetailCart'>
+    <div id='DetailCart'>
     <p className='Detalle'>DETALLE DE PRODUCTOS</p>
 
 
