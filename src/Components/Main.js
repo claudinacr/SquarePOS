@@ -3,7 +3,7 @@ import { Route, NavLink, HashRouter } from 'react-router-dom';
 import './Main.css';
 import Containerproducts from './Products/Containerproducts';
 import Containerflujo from './Flujos/Containerflujo';
-import ContainerVentas from './Ventas/ContainerVentas'
+import ContainerVentas from './Ventas/ContainerVentas';
 /*import Ventas from './Ventas/Ventas';*/
 
 class Main extends Component {
