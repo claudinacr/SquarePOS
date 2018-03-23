@@ -73,11 +73,13 @@ const Products = () =>{
                 console.log(Precio)
                 const actuall = document.querySelector('.TotalR').textContent
                 document.querySelector('.TotalR').innerHTML='';
+
                 const val = this.parentElement.firstChild.nextSibling.lastChild.textContent
                 const valSelect = this.previousSibling.value
                 document.querySelector('.TotalR').appendChild(document.createTextNode(parseInt(actuall) - parseInt(val * valSelect)))
                 Contenedor.style.display ='none';
                      
+
 
                 })
             }}>
