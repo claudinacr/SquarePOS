@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import ListadoVentas from './ListadoVentas';
 
 class Ventas extends Component {
   render() {
     return (
-      <h2>Ventas</h2>
+      <div>
+        <h2> Tus ventas del día</h2>
+        <ListadoVentas/>
+      </div>
     );
   }
 }

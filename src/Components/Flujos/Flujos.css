@@ -1,23 +1,34 @@
 .Grafico1 img{
-	width: 60%;
-}
-
-.Grafico2 img{
-	width: 60%;
+	width: 50%;
 }
 
 .Grafico3 img{
-	width: 70%;
+  width: 70%;
 }
 
-.graficos{
+.Grafico4 img{
+  width: 110%;
+}
+
+.Grafico5 img{
+  width: 70%;
+}
+
+
+
+.graficosbarra{
+  margin-top: 3em;
   display: flex;
   flex-direction: row;
   align-content: space-between;
   align-content: center;
 }
+.Grafico5{
+  margin-left: 2em;
+}
 
-.graficoGrande{
+.graficostorta{
+  margin-top: 3em;
   display: flex;
   flex-direction: row;
   align-content: space-between;
@@ -37,7 +48,7 @@
   align-content: space-between;
   align-content: center;
   width: 25%;
-  height: 90vh;
+  height: 80vh;
 }
 
 li{
@@ -56,8 +67,13 @@ li{
 .Filtro h2{
   color: #FFFFFF;
   margin: 0;
-  padding: 1.5em;
+  padding: 1.5em 1.5em 1em 1.5em;
+  font-size: 1.8em;
+}
 
+.Filtro h2:hover{
+  color: #2760AA;
+  cursor: pointer;
 }
 
 a:hover{
@@ -65,30 +81,29 @@ a:hover{
 }
 .Filtro1{
   background-color: #A2DCFF;
-  height: 20vh;
+  height: 17.5vh;
 }
 
 .Filtro2{
   background-color: #62BCFF;
-  height: 20vh;
+  height: 17.5vh;
 
 }
 
 .Filtro3{
   background-color: #41A1FF;
-  height: 20vh;
+  height: 17.5vh;
 
 }
 
 .Filtro4{
   background-color: #3379DA;
-  height: 20vh;
+  height: 17.5vh;
 
 }
 
 .Filtro5{
   background-color: #2760AA;
-  height: 20vh;
+  height: 17.5vh;
 
 }
-

@@ -1,9 +1,9 @@
 import React from 'react';
-import chart2 from './graficos/chart2.png';
+import chart9 from './graficos/chart9.jpg';
 
 const Grafico2 = () =>(
   <div className='Grafico2'>
-    <img src={chart2} alt="chart2" />
+    <img src={chart9} alt="chart9" />
   </div>
 )
 

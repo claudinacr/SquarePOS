@@ -1,11 +1,21 @@
 import React from 'react';
-import Hora from './Hora';
+import Date from './../Products/Date';
 import Ventas from './Ventas';
+import ContainerCierreCaja from './ContainerCierreCaja';
+import BotonCaja from './BotonCaja';
+import './ventas.css';
 
-const ContainerVentas = () =>(
+const ContainerVentas = () => (
   <div className='ContainerVentas'>
-    <Hora />
-    <Ventas />
+    <div className="contenedorListadoVentas">
+      <Date />
+      <Ventas />
+      <BotonCaja />
+    </div>
+    <div className="cierreCaja">
+      <ContainerCierreCaja/>
+    </div>
   </div>
 )
+
 export default ContainerVentas;

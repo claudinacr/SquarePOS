@@ -1,0 +1,28 @@
+.ContainerCierreCaja{
+text-align: center;
+ margin:0;
+ background-color: #D8D8D8;
+}
+
+
+.ContainerCierreCaja p{
+ text-align: left;
+}
+
+
+.cierredecaja{
+height: 2em;
+ padding: 1em;
+ 
+}
+
+.containertotalDelDia{
+	background-color: #D8D8D8;
+	height: 100vh;
+	padding: 1em;
+}
+
+.totalDelDia{
+	background-color: #fff;
+	height: 10em;
+}

@@ -1,0 +1,74 @@
+.ContainerVentas{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.titulo{
+  text-align: left;
+}
+
+.contenedorListadoVentas{
+  width: 70%;
+}
+
+.cierreCaja{
+  width: 30%;
+}
+
+.ListadoVentas{
+  height: 25em;
+  background-color: #FFFFFF;
+}
+
+.BotonCierre{
+  background-color: #009bc4;  
+  border-radius: 0.5em;
+  border: none;
+  padding: 0.8em;
+  color: #FFFFFF;
+}
+
+.BotonCierre:hover{
+  background-color: #969696;
+}
+
+/*Listado ventas*/
+.contenedorVenta:first-child{
+  margin-top: 3%;  
+}
+.contenedorVenta{
+  background-color: #DEDEDE;
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  margin-left:33%;
+  margin-top: 1%;  
+}
+
+.totalVenta, .numeroVenta, .DetalleProducto, .elementoVentas{
+  display: inline-block;
+  vertical-align: top;
+} 
+
+.elementoVentas p{
+  margin: 0;
+}
+
+.numeroVenta{
+  padding: 0.5em 1.5em 0 1.5em;
+}
+
+.DetalleProducto{
+  padding: 0.5em ;
+  text-align: left;
+  font-size: 0.8em;
+}
+
+.totalVenta{
+  background-color: #009bc4;
+  color: #FFFFFF;
+  padding: 1.5em; 
+  margin-left: 6.95em;
+}
