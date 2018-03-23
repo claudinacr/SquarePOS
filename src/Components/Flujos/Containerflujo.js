@@ -2,6 +2,8 @@ import React from 'react';
 import Grafico1 from './Grafico1';
 import Grafico2 from './Grafico2';
 import Grafico3 from './Grafico3';
+import Grafico4 from './Grafico4';
+import Grafico5 from './Grafico5';
 import ContainerFiltro from './ContainerFiltro';
 import './Flujos.css'
 
@@ -11,13 +13,14 @@ const Containerflujo = () => (
       <ContainerFiltro />
     </div>
     <div className="contenedorGraficos">
-      <div className="graficos">
+      <div className="graficosbarra">
         <Grafico1 />
-        <Grafico1 />
-      </div>
-      <div className="graficoGrande">
         <Grafico3 />
-        <Grafico2 />
+      </div>
+      <div className="graficostorta">
+        <Grafico4 />
+        <Grafico5 />
+    
       </div>
     </div>
   </div>
