@@ -8,7 +8,6 @@ class ListadoVentas extends Component {
     <div className="ListadoVentas">
       <ContenedorVenta />
       <ContenedorVenta />
-      <ContenedorVenta />
     </div>
    );
  }

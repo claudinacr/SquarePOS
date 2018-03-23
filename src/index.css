@@ -203,3 +203,35 @@ a {
   padding: 1em;
 }
 
+.titleRecibo {
+  background-color: #009bc4;
+  color: #fff;
+}
+.titleRecibo h1 {
+  font-weight: bolder;
+}
+
+.containerDetail {
+  background-color: #cecece;
+}
+.total {
+  background-color: #77baef;
+}
+.print {
+  border: none;
+  background-color: #77baef;
+  width: auto;
+  border-radius: 6px;
+  font-size: 22px;
+  margin-top: 0.6em;
+  height: 2.5em;
+}
+.mail {
+  border: none;
+  background-color: #77baef;
+  width: auto;
+  border-radius: 6px;
+  font-size: 22px;
+  margin-top: 0.6em;
+  height: 2.5em;
+}
