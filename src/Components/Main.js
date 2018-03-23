@@ -3,7 +3,7 @@ import { Route, NavLink, HashRouter } from 'react-router-dom';
 import Containerproducts from './Products/Containerproducts';
 import Containerflujo from './Flujos/Containerflujo';
 import ContainerVentas from './Ventas/ContainerVentas';
-
+import ContainerPagos from './Cobros/ContainerPagos';
 import logo from './logo.png';
 import './Main.css';
 
@@ -18,7 +18,7 @@ class Main extends Component {
             <li className="logo"><img src={logo} alt="logo"/></li>
             <li className="usuario"><h4>¡Bienvenida! <strong>Jane Doe</strong></h4></li>
             <li><NavLink to="/Products/Containerproducts">Productos</NavLink></li>
-            <li><NavLink to="">Cobro</NavLink></li>
+            <li><NavLink to="/Cobros/ContainerPagos">Cobro</NavLink></li>
             <li><NavLink to="/Flujos/Containerflujo">Flujo</NavLink></li>
             <li><NavLink to="/Ventas/ContainerVentas">Cierre de Caja</NavLink></li>
           </ul>
@@ -26,7 +26,7 @@ class Main extends Component {
             <Route exact path="/Products/Containerproducts" component={Containerproducts}/>
             <Route path="/Ventas/ContainerVentas" component={ContainerVentas}/>
             <Route path="/Flujos/Containerflujo" component={Containerflujo}/>
-
+            <Route path="/Cobros/ContainerPagos" component={ContainerPagos} />
           </div>
         </div>
       </HashRouter>

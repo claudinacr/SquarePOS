@@ -147,7 +147,7 @@ border: 0px solid #000000;
 
 }
 .title {
-  background-color: #77baef;
+  background-color: #009bc4;
   text-align: center;
   width: 100%;
   height: 9vh;
@@ -158,9 +158,7 @@ border: 0px solid #000000;
   margin-left: 5em;
   font-weight: bolder;
 }
-.contentPago {
-  
-}
+
 .btnActual {
   border: none;
   background-color: #77baef;
@@ -202,4 +200,36 @@ a {
   width: 14em;
   text-align: right;
   padding: 1em;
+}
+.titleRecibo {
+  background-color: #009bc4;
+  color: #fff;
+}
+.titleRecibo h1 {
+  font-weight: bolder;
+}
+
+.containerDetail {
+  background-color: #cecece;
+}
+.total {
+  background-color: #77baef;
+}
+.print {
+  border: none;
+  background-color: #77baef;
+  width: auto;
+  border-radius: 6px;
+  font-size: 22px;
+  margin-top: 0.6em;
+  height: 2.5em;
+}
+.mail {
+  border: none;
+  background-color: #77baef;
+  width: auto;
+  border-radius: 6px;
+  font-size: 22px;
+  margin-top: 0.6em;
+  height: 2.5em;
 }
