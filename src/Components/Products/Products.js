@@ -65,24 +65,17 @@ const Products = () =>{
               buttonRemove.innerText='Remove'
               divContainer.appendChild(buttonRemove)
               ContainerCart.appendChild(divContainer)
-
-            
-            
-
-             
-
-
-
-
-
                buttonRemove.addEventListener('click', function(){
                 const Contenedor = this.parentNode
+                
                 console.log(Contenedor)
                 const Precio = this.parentNode.firstChild.nextSibling.lastChild.textContent
                 console.log(Precio)
                 const actuall = document.querySelector('.TotalR').textContent
                 document.querySelector('.TotalR').innerHTML='';
-                document.querySelector('.TotalR').appendChild(document.createTextNode(parseInt(actuall) - parseInt(Precio)))
+                const val = this.parentElement.firstChild.nextSibling.lastChild.textContent
+                const valSelect = this.previousSibling.value
+                document.querySelector('.TotalR').appendChild(document.createTextNode(parseInt(actuall) - parseInt(val * valSelect)))
                 Contenedor.style.display ='none';
                      
 
