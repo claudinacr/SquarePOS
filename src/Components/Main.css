@@ -1,23 +1,27 @@
-*{
-	margin:0;
-	padding: 0;
-
-}
 .menu li{
 	list-style: none;
 	display: inline-block;
-	margin: 1.5em;
+	margin: 2em;
+}
+
+.menu li:first-child{
+  float: left;
+  color: #FFFFFF;
+  margin: 0;
+  padding-top: 1.2em;
 }
 
 .menu a{
-	font-size: 20px;
 	text-decoration: none;
-	color: white;
+  color: #FFF;
+}
 
+.menu a:hover{
+  color: #2760AA;
 }
 
 .menu{
 	text-align: right;
-	background-color: #69AAEE;
-	margin:0;
+  background-color: #41A1FF;
+  margin-bottom: 0;
 }

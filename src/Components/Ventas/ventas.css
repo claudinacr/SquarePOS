@@ -5,11 +5,31 @@
   align-content: space-between;
 }
 
+.titulo{
+  text-align: left;
+}
 
-.listadoVentas{
+.contenedorListadoVentas{
   width: 70%;
 }
 
 .cierreCaja{
   width: 30%;
+}
+
+.ListadoVentas{
+  height: 25em;
+  background-color: #FFFFFF;
+}
+
+.BotonCierre{
+  background-color: #009bc4;  
+  border-radius: 0.5em;
+  border: none;
+  padding: 0.8em;
+  color: #FFFFFF;
+}
+
+.BotonCierre:hover{
+  background-color: #969696;
 }
