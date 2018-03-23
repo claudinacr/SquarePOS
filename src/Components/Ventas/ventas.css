@@ -23,7 +23,7 @@
 }
 
 .BotonCierre{
-  background-color: #009bc4;  
+  background-color: #009bc4;
   border-radius: 0.5em;
   border: none;
   padding: 0.8em;
@@ -31,26 +31,26 @@
 }
 
 .BotonCierre:hover{
-  background-color: #969696;
+  background-color: #A1A1A1;
 }
 
 /*Listado ventas*/
 .contenedorVenta:first-child{
-  margin-top: 3%;  
+  margin-top: 3%;
 }
 .contenedorVenta{
   background-color: #DEDEDE;
-  width: 35%;
+  width: 50%;
   display: flex;
   flex-direction: row;
   margin-left:33%;
-  margin-top: 1%;  
+  margin-top: 1%;
 }
 
 .totalVenta, .numeroVenta, .DetalleProducto, .elementoVentas{
   display: inline-block;
   vertical-align: top;
-} 
+}
 
 .elementoVentas p{
   margin: 0;
@@ -67,8 +67,8 @@
 }
 
 .totalVenta{
-  background-color: #009bc4;
+  background-color: #17A3C8;
   color: #FFFFFF;
-  padding: 1.5em; 
-  margin-left: 6.95em;
+  padding: 1.5em;
+  margin-left: 8.95em;
 }

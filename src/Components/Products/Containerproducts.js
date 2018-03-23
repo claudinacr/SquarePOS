@@ -2,6 +2,7 @@ import React from 'react';
 import Products from './Products';
 import Detail from './Detail';
 import Date from './Date';
+import './Products.css'
 
 
 const Containerproducts = () => (
