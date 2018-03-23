@@ -4,11 +4,15 @@
 	margin: 2em;
 }
 
-.menu li:first-child{
+.menu li:first-child, .menu li:nth-child(2){
   float: left;
   color: #FFFFFF;
   margin: 0;
-  padding-top: 1.2em;
+  vertical-align: middle;
+}
+
+.menu li:nth-child(2){
+  padding: 1.2em;
 }
 
 .menu a{
@@ -24,4 +28,23 @@
 	text-align: right;
   background-color: #41A1FF;
   margin-bottom: 0;
+}
+
+.logo img{
+  height: 5em;
+  margin: 0;
+  padding-top: 1em;
+}
+
+.usuario strong{
+  color:#2760AA;
+  font-weight: 600;
+}
+
+.menu a:active{
+  color: #1F4F8D;
+}
+
+.menu li:active{
+  color: #1F4F8D;
 }

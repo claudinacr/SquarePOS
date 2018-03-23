@@ -3,6 +3,7 @@ import { Route, NavLink, HashRouter } from 'react-router-dom';
 import Containerproducts from './Products/Containerproducts';
 import Containerflujo from './Flujos/Containerflujo';
 import ContainerVentas from './Ventas/ContainerVentas';
+import logo from './logo.png';
 import './Main.css';
 
 class Main extends Component {
@@ -12,7 +13,8 @@ class Main extends Component {
       <HashRouter>
         <div>
           <ul className="menu">
-            <li className="usuario"><h4>Jane Doe</h4></li>
+            <li className="logo"><img src={logo} alt="logo"/></li>
+            <li className="usuario"><h4>¡Bienvenida! <strong>Jane Doe</strong></h4></li>
             <li><NavLink to="/Products/Containerproducts">Productos</NavLink></li>
             <li><NavLink to="">Cobro</NavLink></li>
             <li><NavLink to="/Flujos/Containerflujo">Flujo</NavLink></li>
